@@ -51,4 +51,33 @@ Let's begin!
 If you've ever written Python code in the terminal, iPython should feel very familiar.  It's essentially the same experience, but with some added bells and whistles to make life easier, referred to as "magic commands".  For a full list of iPython magic commands, follow [this link](http://ipython.readthedocs.io/en/stable/interactive/magics.html) to see the documentation.
 
 
-Let's try out some of the more useful ones--
+Type the following code (don't copy and paste it!):
+
+`def factorial(x):
+    '''Computes the factorial of the number passed as input.'''
+    total = 1
+    while x != 1:
+        total *= x
+        x -= 1
+    return total`
+
+This is a basic function to compute factorials.  If you typed it out, you probably noticed a couple handy features you'd normally have to use a text editor or IDE for, such as:
+  * auto-indenting after functions
+  * tab for autocomplete
+  * color coded key words
+
+  These are really handy benefits usually only found in a text editor, now available directly in the iPython terminal.  Pretty handy! These are nice, but we haven't seen the really cool stuff yet.  
+
+  In the iPython terminal, type `factorial?`.  Now, type `factorial??`.  Pretty cool, huh?
+
+  In iPython, running the name of a function with a `?` at the end will return the function's documentation.  Running the name of a function with `??` at the end will return the docstring, as well as the actual function itself, code included.
+
+  iPython also includes the ability to run bash commands from inside the iPython interpreter.  Can't remember the name of the file you're trying to import?  No problem--just type `%ls` to list the files in your current directory!  Other bash commands also work, such as `cd` and `pwd`.  Just make sure that you put a modulo sign in front of the commands so they'll run in iPython!
+
+  iPython has many more magic commands that are most useful inside a Jupyter notebook--we'll take a look at those soon.  
+
+  As a final step, type `quit()` to end your iPython session.
+
+### Step 3: Package management and Virtual Environments
+
+Another reason people love conda is the seamless ability to manage packages and create virtual environments.  
