@@ -53,13 +53,15 @@ If you've ever written Python code in the terminal, iPython should feel very fam
 
 Type the following code (don't copy and paste it!):
 
-`def factorial(x):
+```python 
+def factorial(x):
     '''Computes the factorial of the number passed as input.'''
     total = 1
     while x != 1:
         total *= x
         x -= 1
-    return total`
+    return total
+  ```
 
 This is a basic function to compute factorials.  If you typed it out, you probably noticed a couple handy features you'd normally have to use a text editor or IDE for, such as:
   * auto-indenting after functions
@@ -87,7 +89,7 @@ Conda has the ability manage packages in the same way that you've probably used 
 In order simplify things in this course, we're going to create a virtual environment with conda to do all of our programming in.  For simplicity's sake, we're going to name this virtual environment `DS1`.  To create this virtual environment, simply type:
 
 <center>`conda create -n DS1 python=3.5`</center>
-    
+
 This will create a new virtual environment called DS1, with the default python version set to 3.5. Now, we just have to activate our virtual environment.  To do so, type:
 
 <center>`source activate DS1`</center>
@@ -115,5 +117,3 @@ Once you see the "Home" screen at localhost:8888, look in the top right corner. 
 Alternatively, if you want to open a preexisting jupyter notebook, just click on it in the menu displayed on the home screen--note that if you didn't navigate to the directory containing the jupyter notebook before typing `jupyter notebook` in the terminal, you won't see the jupyter notebook on the home screen!
 
 To verify that everything is installed correctly, open the jupyter notebook cloned from this repo titled `test_installation.ipynb`.  Follow the instructions in this notebook to verify that you have everything installed correctly!
-
-
