@@ -16,13 +16,13 @@ Here's a short list of the things we'll accomplish in this tutorial.
 
 The two most popular languages in Data Science are Python and R.  In our courses, we'll be focusing on Python.  This means we'll have access to awesome Data Science tools in Python, such as Anaconda!
 
-####What is Anaconda?
+#### What is Anaconda?
 
 Anaconda is a Python distribution built specially for Data Science and Analytics, distributed by a company called Continuum Analytics.  This is free, easy to use, and really, really powerful! If you're doing data science in Python, you can be pretty sure they're using Anaconda.
 
 (From here on out, we'll refer to Anaconda by it's nickname, Conda.)
 
-####Anaconda vs. Miniconda
+#### Anaconda vs. Miniconda
 
 We're going to start by installing Conda.  This is fairly straightforward, but just in case you have questions, you can follow [this link](https://conda.io/docs/user-guide/install/macos.html) to the full installation guide for Conda.  
 
@@ -53,7 +53,7 @@ If you've ever written Python code in the terminal, iPython should feel very fam
 
 Type the following code (don't copy and paste it!):
 
-```python 
+```python
 def factorial(x):
     '''Computes the factorial of the number passed as input.'''
     total = 1
@@ -99,7 +99,6 @@ You'll know that you've activated your virtual environment because the prompt in
 Now that you've started your virtual environment, use `pip` to install any necessary packages--these will not affect the versions of any python packages in your main environment, only install new versions within this virtual environment.  
 
 To deactivate your virtual environment, just type `source deactivate` in the terminal.
-
 
 
 ### Step 4: Running Jupyter Notebooks and Verifying Installations
