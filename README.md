@@ -4,4 +4,4 @@ DS1: Data Analysis, Databases, and Data Visualization
 
 ## Getting started
 
-To make sure that you are prepared for the course, please follow the instructions found in the [00_Installation_Instructions.md file]()
+To make sure that you are prepared for the course, please follow the instructions found in the [Installation_Instructions.md file]()
