@@ -103,16 +103,16 @@ To deactivate your virtual environment, just type `source deactivate` in the ter
 
 ### Step 4: Running Jupyter Notebooks and Verifying Installations
 
-The last thing we'll do here is run a Jupyter Notebook.  Jupyter notebooks are a primary tool of data scientists and analysts. Since you installed Conda, you have access to Jupyter.  To start your first jupyter notebook session, follow these steps:
+The last thing we'll do here is run a Jupyter Notebook.  Jupyter notebooks are a primary tool of data scientists and analysts. Since you installed Conda, you have access to Jupyter.  To start your first Jupyter notebook session, follow these steps:
 
 1. In the terminal, navigate to the folder you want to store all your work.  
 2. Make sure your `DS1` virtual environment is activated.
 3. Type `jupyter notebook` in the terminal and press enter.
 
-You should see a flurry of activity on your terminal as a result, and then a new browser window should open with the title "Home". You now have a jupyter notebook server running locally on your machine.  If, for whatever reason, a new browser window does not open, don't worry--you can navigate there yourself.  If you look in the terminal towards the top of the output, you'll see a line that says "The jupyter notebook is running at {...}".  By default, the server runs at localhost:8888--you can always type that in your browser window when the jupyter server is running.  
+You should see a flurry of activity on your terminal as a result, and then a new browser window should open with the title "Home". You now have a Jupyter notebook server running locally on your machine.  If, for whatever reason, a new browser window does not open, don't worry--you can navigate there yourself.  If you look in the terminal towards the top of the output, you'll see a line that says "The jupyter notebook is running at {...}".  By default, the server runs at localhost:8888--you can always type that in your browser window when the Jupyter server is running.  
 
 Once you see the "Home" screen at localhost:8888, look in the top right corner.  Click on the "New" drop-down button, and under the notebook section, select the one that says "Python\[DS1]".  This will create a new Jupyter Notebook using the DS1 virtual environment you've created as the kernel.  
 
-Alternatively, if you want to open a preexisting jupyter notebook, just click on it in the menu displayed on the home screen--note that if you didn't navigate to the directory containing the jupyter notebook before typing `jupyter notebook` in the terminal, you won't see the jupyter notebook on the home screen!
+Alternatively, if you want to open a preexisting Jupyter notebook, just click on it in the menu displayed on the home screen--note that if you didn't navigate to the directory containing the Jupyter notebook before typing `jupyter notebook` in the terminal, you won't see the Jupyter notebook on the home screen!
 
-To verify that everything is installed correctly, open the jupyter notebook cloned from this repo titled `test_installation.ipynb`.  Follow the instructions in this notebook to verify that you have everything installed correctly!
+To verify that everything is installed correctly, open the Jupyter notebook cloned from this repo titled `test_installation.ipynb`.  Follow the instructions in this notebook to verify that you have everything installed correctly!
